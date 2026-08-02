@@ -1,0 +1,27 @@
+# Valinor Enterprises
+
+> Valinor is a defense and government technology operational holding company — a "company of companies" that builds and buys mission-critical technologies to fill the gaps others ignore. It centralizes go-to-market, compliance, security, and operations while decentralizing engineering across lean, mission-driven Product Companies. Backed by General Catalyst; raised a $54M Series A led by Friends & Family Capital ($85M total raised).
+
+Valinor publishes no public API, developer portal, or documentation surface. Its developer footprint is limited to a GitHub organization and an npm scope of packages supporting its Streamline product.
+
+## Product Companies
+
+- [Condor](https://www.valinor.co/products): Modular, attritable aerial system engineered for air- and ground-launch, high-volume production, and contested environments
+- [Dispatch](https://www.valinor.co/products): Modular contact-charging nodes for unmanned systems, powering persistent autonomous operations; selected by DIU for the Containerized Autonomous Drone Delivery System (CADDS) program
+- [Harbor](https://www.valinor.co/products): Mobile, modular medical systems for precision care, rapid response, and remote monitoring; selected by the Marine Corps for the Haven Shelter System (HSS) program
+- [Reflex](https://www.valinor.co/products): Next-generation smart optics with onboard vision models, embedding intelligence at the point of capture
+- [Streamline](https://www.valinor.co/products): AI-enabled data collection platform with structured ontology write-back for any user on any device, on- or offline
+
+## Company
+
+- [Website](https://www.valinor.co/): Valinor Enterprises homepage
+- [About](https://www.valinor.co/about): Mission, values, and team
+- [Products](https://www.valinor.co/products): The Product Company constellation
+- [Newsroom](https://www.valinor.co/newsroom): Updates, essays, and articles on Valinor and its Product Companies
+- [Careers](https://www.valinor.co/careers): Open roles across the hub and Product Companies
+- [GitHub](https://github.com/valinor-enterprises): valinor-enterprises organization
+- [npm](https://www.npmjs.com/org/valinor-enterprises): @valinor-enterprises packages (Streamline platform libraries)
+
+## Catalog
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/valinor/refs/heads/main/apis.yml): API Evangelist network profile for Valinor

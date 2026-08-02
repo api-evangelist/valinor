@@ -1,7 +1,30 @@
 aid: valinor
 name: Valinor
-description: Valinor is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Valinor Enterprises is a defense and government technology operational
+  holding company — a "company of companies" that builds and buys
+  mission-critical technologies to fill the gaps others ignore. It centralizes
+  go-to-market, compliance, security, and operations while decentralizing
+  engineering across lean Product Companies including Condor (attritable
+  aerial systems), Dispatch (drone charging infrastructure, selected by DIU
+  for the CADDS program), Harbor (expeditionary medical systems for the Marine
+  Corps), Reflex (smart optics with onboard vision models), and Streamline
+  (AI-enabled data collection with structured ontology write-back). Backed by
+  General Catalyst; raised a $54M Series A led by Friends & Family Capital.
+  Valinor publishes no public API or developer portal; its developer footprint
+  is a GitHub organization and the @valinor-enterprises npm scope.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/gjo13ait/production/c14c2b6b74056e1dac60360b5491582f50cd710e-1200x630.jpg
 url: https://raw.githubusercontent.com/api-evangelist/valinor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,51 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Defense
+- Government
+- Drones
+- Military Technology
+- IoT
+- Data Collection
+- Hardware
 apis: []
+common:
+- type: DomainSecurity
+  url: security/valinor-domain-security.yml
+- name: Website
+  type: Website
+  url: https://www.valinor.co
+- name: About
+  type: About
+  url: https://www.valinor.co/about
+- name: Products
+  type: Products
+  url: https://www.valinor.co/products
+- name: Blog
+  type: Blog
+  url: https://www.valinor.co/newsroom
+- name: Careers
+  type: Careers
+  url: https://www.valinor.co/careers
+- name: GitHub Organization
+  type: GitHubOrganization
+  url: https://github.com/valinor-enterprises
+- name: Packages
+  type: Packages
+  url: packages/valinor-packages.yml
+- name: LLMs.txt
+  type: LLMsTxt
+  url: llms/valinor-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

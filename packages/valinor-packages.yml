@@ -1,0 +1,55 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/org/valinor-enterprises
+notes: >-
+  Valinor Enterprises publishes six packages under the @valinor-enterprises npm
+  scope (all created 2025-02-26, publisher rfidler-valinor). They are platform
+  libraries for the Streamline product (AI-enabled data collection with
+  structured ontology write-back), including a plugin API — not client SDKs for
+  a public REST API, since Valinor publishes no public API surface. No
+  descriptions, READMEs, or licenses are published on the registry. PyPI
+  "valinor" is an unrelated ARMmbed debug tool. GitHub org valinor-enterprises
+  has one public repo (terra-thingsboard, a ThingsBoard IoT platform fork).
+packages:
+  - language: javascript
+    registry: npm
+    name: "@valinor-enterprises/streamline-core"
+    url: https://www.npmjs.com/package/@valinor-enterprises/streamline-core
+    install: npm install @valinor-enterprises/streamline-core
+    version: 0.1.6
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@valinor-enterprises/streamline-forms"
+    url: https://www.npmjs.com/package/@valinor-enterprises/streamline-forms
+    install: npm install @valinor-enterprises/streamline-forms
+    version: 0.7.0
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@valinor-enterprises/streamline-forms-spec"
+    url: https://www.npmjs.com/package/@valinor-enterprises/streamline-forms-spec
+    install: npm install @valinor-enterprises/streamline-forms-spec
+    version: 0.10.0
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@valinor-enterprises/streamline-forms-next"
+    url: https://www.npmjs.com/package/@valinor-enterprises/streamline-forms-next
+    install: npm install @valinor-enterprises/streamline-forms-next
+    version: 0.5.1
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@valinor-enterprises/streamline-plugin-api"
+    url: https://www.npmjs.com/package/@valinor-enterprises/streamline-plugin-api
+    install: npm install @valinor-enterprises/streamline-plugin-api
+    version: 0.6.0
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@valinor-enterprises/assertions"
+    url: https://www.npmjs.com/package/@valinor-enterprises/assertions
+    install: npm install @valinor-enterprises/assertions
+    version: 0.2.1
+    official: true

@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.valinor.co
+host: https://www.valinor.co
+notes: >-
+  Valinor Enterprises publishes no /.well-known/ discovery surface. All probes
+  returned 404; no API, docs, developer, status, or trust subdomains resolve
+  (api/docs/developer/status/trust.valinor.co all fail DNS). Absence recorded
+  as valid probe data.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+hosts_probed:
+  - {host: www.valinor.co, https: true}
+  - {host: api.valinor.co, resolves: false}
+  - {host: docs.valinor.co, resolves: false}
+  - {host: developer.valinor.co, resolves: false}
+  - {host: status.valinor.co, resolves: false}
+  - {host: trust.valinor.co, resolves: false}
