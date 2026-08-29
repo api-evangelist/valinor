@@ -37,6 +37,9 @@ accessModel:
   method: derived
 image: https://cdn.sanity.io/images/gjo13ait/production/c14c2b6b74056e1dac60360b5491582f50cd710e-1200x630.jpg
 url: https://raw.githubusercontent.com/api-evangelist/valinor/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Valinor publishes no public API or developer portal; its developer footprint is a GitHub organization and the @valinor-enterprises npm scope."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
