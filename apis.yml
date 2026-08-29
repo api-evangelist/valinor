@@ -13,6 +13,17 @@ description: >-
   General Catalyst; raised a $54M Series A led by Friends & Family Capital.
   Valinor publishes no public API or developer portal; its developer footprint
   is a GitHub organization and the @valinor-enterprises npm scope.
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
