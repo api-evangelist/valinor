@@ -2,12 +2,25 @@ generated: '2026-07-21'
 method: searched
 source: https://www.valinor.co
 host: https://www.valinor.co
-notes: >-
-  Valinor Enterprises publishes no /.well-known/ discovery surface. All probes
-  returned 404; no API, docs, developer, status, or trust subdomains resolve
-  (api/docs/developer/status/trust.valinor.co all fail DNS). Absence recorded
-  as valid probe data.
-documents:
+notes: Valinor Enterprises publishes no /.well-known/ discovery surface. All probes returned 404; no API,
+  docs, developer, status, or trust subdomains resolve (api/docs/developer/status/trust.valinor.co all
+  fail DNS). Absence recorded as valid probe data.
+hosts_probed:
+- host: www.valinor.co
+  https: true
+- host: api.valinor.co
+  resolves: false
+- host: docs.valinor.co
+  resolves: false
+- host: developer.valinor.co
+  resolves: false
+- host: status.valinor.co
+  resolves: false
+- host: trust.valinor.co
+  resolves: false
+hosts:
+- host: https://www.valinor.co
+  documents:
   - path: /.well-known/security.txt
     status: 404
   - path: /.well-known/openid-configuration
@@ -18,10 +31,8 @@ documents:
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
-hosts_probed:
-  - {host: www.valinor.co, https: true}
-  - {host: api.valinor.co, resolves: false}
-  - {host: docs.valinor.co, resolves: false}
-  - {host: developer.valinor.co, resolves: false}
-  - {host: status.valinor.co, resolves: false}
-  - {host: trust.valinor.co, resolves: false}
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
